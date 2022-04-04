@@ -108,3 +108,33 @@ Write a function that takes a string and finds and returns the any (STRETCH: fir
 |    'abacabad'    | 'c' (not 'd' because it occurs second) |
 
 #### Answer
+
+## Problem 7
+
+### Oddish Evenish
+
+Write a function that determines whether a number is Oddish or Evenish. A number is Oddish if the sum of all of its digits is odd, and a number is Evenish if the sum of all of its digits is even. If a number is Oddish, return "Oddish". Otherwise, return "Evenish".
+
+### Test Cases
+
+| input |  output   |    because    |
+| :---: | :-------: | :-----------: |
+|  121  | 'Evenish' | 1 + 2 + 1 = 4 |
+|  41   |  'Oddish  |   4 + 1 = 5   |
+
+#### Answer
+
+## Problem 8
+
+### At
+
+JavaScript has a new array method at. It's not yet available in all browsers, but you can write your own!
+
+### Test Cases
+
+|             input             | output |
+| :---------------------------: | :----: |
+| ['a', 'b', 'c', 'd', 'e'], 1  |  'b'   |
+| ['a', 'b', 'c', 'd', 'e'], -2 |  'd'   |
+
+#### Answer
