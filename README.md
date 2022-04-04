@@ -14,6 +14,15 @@ Write a function that takes a sentence string and returns a new string that is t
 
 #### Answer
 
+```js
+function reverseWords(sentence) {
+  const words = sentence.split();
+  const letter = words.split().reverse().join(" ");
+  return letter;
+}
+console.log("alchemy rocks gold");
+```
+
 ## Problem 2
 
 ### Title Case Words
@@ -27,6 +36,20 @@ Write a function that takes a sentence string and returns a new string that is t
 | 'alchemy ROCKS goLD' | 'Alchemy Rocks Gold' |
 
 #### Answer
+
+```js
+function titleCase(sentence) {
+  const lowerCase = sentence.toLowerCase();
+  const words = lowerCase
+    .split(" ")
+    .map((item) => {
+      item.slice(0, 1).toUpperCase();
+    })
+    .join(" ");
+  return words;
+}
+console.log("alchemy ROCKS goLD");
+```
 
 ## Problem 3
 
