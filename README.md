@@ -53,7 +53,6 @@ Write a function that takes two words as arguments and returns true if they are 
 |              input               | output |
 | :------------------------------: | :----: |
 | 'superintended', 'unpredestined' |  true  |
-|              :---:               | :---:  |
 | 'pictorialness', 'documentarily' | false  |
 
 ## Problem 5
@@ -67,7 +66,6 @@ Write a function that takes an array of strings. All strings contains similar le
 |                         input                         | output |
 | :---------------------------------------------------: | :----: |
 | ['Aa', 'aaa', 'aaaaa', 'BbBb', 'Aaaa', 'AaAaAa', 'a'] | 'BbBb' |
-|                         :---:                         | :---:  |
 |   ['abc', 'acb', 'bac', 'foo', 'bca', 'cab', 'cba']   | 'foo'  |
 
 #### Answer
@@ -83,9 +81,7 @@ Write a function that takes a string and finds and returns the any (STRETCH: fir
 |      input       |                 output                 |
 | :--------------: | :------------------------------------: |
 |   'abdacabad'    |                  'c'                   |
-|      :---:       |                 :---:                  |
 | 'abacabaabacaba' |                  `_`                   |
-|      :---:       |                 :---:                  |
 |    'abacabad'    | 'c' (not 'd' because it occurs second) |
 
 #### Answer
