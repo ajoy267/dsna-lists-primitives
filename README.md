@@ -69,14 +69,14 @@ Write a function that takes a positive integer n, and returns an array that cont
 function fizzBuzz(number) {
   let results = [];
   for (let i = 1; i <= number; i++) {
+    if (i % 15 === 0) {
+      results.push("FizzBuzz");
+    }
     if (i % 3 === 0) {
       results.push("Fizz");
     }
     if (i % 5 === 0) {
       results.push("Buzz");
-    }
-    if (i % 15 === 0) {
-      results.push("FizzBuzz");
     } else {
       results.push(i);
     }
@@ -124,6 +124,16 @@ Write a function that takes an array of strings. All strings contains similar le
 
 #### Answer
 
+```js
+function uniqueString(strings) {
+  const orderedLetters = strings.map((s) => [...new Set(s)].sort());
+  const duplicates = [...new Set(...orderedLetters)];
+  return strings.find((string) => {
+    return duplicates.indexOf(string[0]) === -1;
+  });
+}
+```
+
 ## Probelm 6
 
 ## Unique-char
@@ -139,6 +149,10 @@ Write a function that takes a string and finds and returns the any (STRETCH: fir
 |    'abacabad'    | 'c' (not 'd' because it occurs second) |
 
 #### Answer
+
+```js
+function uniqueChar(string) {}
+```
 
 ## Problem 7
 
