@@ -65,6 +65,26 @@ Write a function that takes a positive integer n, and returns an array that cont
 
 #### Answer
 
+```js
+function fizzBuzz(number) {
+  let results = [];
+  for (let i = 1; i <= number; i++) {
+    if (i % 3 === 0) {
+      results.push("Fizz");
+    }
+    if (i % 5 === 0) {
+      results.push("Buzz");
+    }
+    if (i % 15 === 0) {
+      results.push("FizzBuzz");
+    } else {
+      results.push(i);
+    }
+  }
+  return results;
+}
+```
+
 ## Problem 4
 
 ### Anagrams
@@ -77,6 +97,17 @@ Write a function that takes two words as arguments and returns true if they are 
 | :------------------------------: | :----: |
 | 'superintended', 'unpredestined' |  true  |
 | 'pictorialness', 'documentarily' | false  |
+
+```js
+function anagrams(wordOne, wordTwo) {
+  const one = wordOne.split("").sort().join();
+  const two = wordTwo.split("").sort().join();
+
+  if (one === two) {
+    return true;
+  } else return false;
+}
+```
 
 ## Problem 5
 
