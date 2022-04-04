@@ -8,8 +8,9 @@ Write a function that takes a sentence string and returns a new string that is t
 
 ### Test Cases
 
-| input | output |
-|'alchemy rocks gold'| 'ymehcla skcor dlog'|
+|        input         |        output        |
+| :------------------: | :------------------: |
+| 'alchemy rocks gold' | 'ymehcla skcor dlog' |
 
 #### Answer
 
@@ -21,8 +22,9 @@ Write a function that takes a sentence string and returns a new string that is t
 
 ### Test Cases
 
-| input | output |
-|'alchemy ROCKS goLD'| 'Alchemy Rocks Gold'|
+|        input         |        output        |
+| :------------------: | :------------------: |
+| 'alchemy ROCKS goLD' | 'Alchemy Rocks Gold' |
 
 #### Answer
 
@@ -34,8 +36,9 @@ Write a function that takes a positive integer n, and returns an array that cont
 
 ### Test Cases
 
-| input | output |
-| 16 | [1, 2, 'Fizz', 4, 'Buzz', 'Fizz', 7, 8, 'Fizz', 'Buzz', 11, 'Fizz' 13, 14, 'FizzBuzz', 16] |
+| input |                                           output                                           |
+| :---: | :----------------------------------------------------------------------------------------: |
+|  16   | [1, 2, 'Fizz', 4, 'Buzz', 'Fizz', 7, 8, 'Fizz', 'Buzz', 11, 'Fizz' 13, 14, 'FizzBuzz', 16] |
 
 #### Answer
 
@@ -47,9 +50,11 @@ Write a function that takes two words as arguments and returns true if they are 
 
 ### Test Cases
 
-| input | output |
-| 'superintended', 'unpredestined' | true |
-| 'pictorialness', 'documentarily' | false
+|              input               | output |
+| :------------------------------: | :----: |
+| 'superintended', 'unpredestined' |  true  |
+|              :---:               | :---:  |
+| 'pictorialness', 'documentarily' | false  |
 
 ## Problem 5
 
@@ -59,9 +64,11 @@ Write a function that takes an array of strings. All strings contains similar le
 
 ### Test Cases
 
-| input | output |
+|                         input                         | output |
+| :---------------------------------------------------: | :----: |
 | ['Aa', 'aaa', 'aaaaa', 'BbBb', 'Aaaa', 'AaAaAa', 'a'] | 'BbBb' |
-| ['abc', 'acb', 'bac', 'foo', 'bca', 'cab', 'cba'] | 'foo' |
+|                         :---:                         | :---:  |
+|   ['abc', 'acb', 'bac', 'foo', 'bca', 'cab', 'cba']   | 'foo'  |
 
 #### Answer
 
@@ -73,9 +80,12 @@ Write a function that takes a string and finds and returns the any (STRETCH: fir
 
 ### Test Cases
 
-| input | output |
-| 'abdacabad' | 'c' |
-|'abacabaabacaba' | `_` |
-| 'abacabad' | 'c' (not 'd' because it occurs second) |
+|      input       |                 output                 |
+| :--------------: | :------------------------------------: |
+|   'abdacabad'    |                  'c'                   |
+|      :---:       |                 :---:                  |
+| 'abacabaabacaba' |                  `_`                   |
+|      :---:       |                 :---:                  |
+|    'abacabad'    | 'c' (not 'd' because it occurs second) |
 
 #### Answer
