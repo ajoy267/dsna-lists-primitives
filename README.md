@@ -124,6 +124,21 @@ Write a function that determines whether a number is Oddish or Evenish. A number
 
 #### Answer
 
+```js
+function oddishEvenish(number) {
+  const digits = number
+    .toString()
+    .split("")
+    .map((num) => +num)
+    .reduce((a, b) => a + b);
+  if (digits % 2 === 0) {
+    return "Evenish";
+  } else {
+    return "Oddish";
+  }
+}
+```
+
 ## Problem 8
 
 ### At
@@ -138,3 +153,14 @@ JavaScript has a new array method at. It's not yet available in all browsers, bu
 | ['a', 'b', 'c', 'd', 'e'], -2 |  'd'   |
 
 #### Answer
+
+```js
+function at(arr, index) {
+  let negative = index < 0;
+  if (negative) {
+    return arr[arr.length + index];
+  } else {
+    return arr[index];
+  }
+}
+```
